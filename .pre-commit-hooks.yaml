@@ -1,9 +1,8 @@
 -   id: clangd-tidy
     name: clangd-tidy
     description: This hook runs clangd-tidy for C++ linting
-    entry: clangd-tidyy
+    entry: clangd-tidy
     language: python
-    types: [text]
+    types: ["c", "c++", "file", "non-executable", "text"]
     args:
-      - "--tqdm"
-      - "-j10"
+      - "-j8"
