@@ -1,0 +1,136 @@
+version = 1
+revision = 2
+requires-python = ">=3.8"
+resolution-markers = [
+    "python_full_version >= '3.9'",
+    "python_full_version < '3.9'",
+]
+
+[[package]]
+name = "attrs"
+version = "25.3.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/5a/b0/1367933a8532ee6ff8d63537de4f1177af4bff9f3e829baf7331f595bb24/attrs-25.3.0.tar.gz", hash = "sha256:75d7cefc7fb576747b2c81b4442d4d4a1ce0900973527c011d1030fd3bf4af1b", size = 812032, upload-time = "2025-03-13T11:10:22.779Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/77/06/bb80f5f86020c4551da315d78b3ab75e8228f89f0162f2c3a819e407941a/attrs-25.3.0-py3-none-any.whl", hash = "sha256:427318ce031701fea540783410126f03899a97ffc6f61596ad581ac2e40e3bc3", size = 63815, upload-time = "2025-03-13T11:10:21.14Z" },
+]
+
+[[package]]
+name = "cattrs"
+version = "24.1.3"
+source = { registry = "https://pypi.org/simple" }
+resolution-markers = [
+    "python_full_version < '3.9'",
+]
+dependencies = [
+    { name = "attrs", marker = "python_full_version < '3.9'" },
+    { name = "exceptiongroup", marker = "python_full_version < '3.9'" },
+    { name = "typing-extensions", version = "4.13.2", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.9'" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/29/7b/da4aa2f95afb2f28010453d03d6eedf018f9e085bd001f039e15731aba89/cattrs-24.1.3.tar.gz", hash = "sha256:981a6ef05875b5bb0c7fb68885546186d306f10f0f6718fe9b96c226e68821ff", size = 426684, upload-time = "2025-03-25T15:01:00.325Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/3c/ee/d68a3de23867a9156bab7e0a22fb9a0305067ee639032a22982cf7f725e7/cattrs-24.1.3-py3-none-any.whl", hash = "sha256:adf957dddd26840f27ffbd060a6c4dd3b2192c5b7c2c0525ef1bd8131d8a83f5", size = 66462, upload-time = "2025-03-25T15:00:58.663Z" },
+]
+
+[[package]]
+name = "cattrs"
+version = "25.1.0"
+source = { registry = "https://pypi.org/simple" }
+resolution-markers = [
+    "python_full_version >= '3.9'",
+]
+dependencies = [
+    { name = "attrs", marker = "python_full_version >= '3.9'" },
+    { name = "exceptiongroup", marker = "python_full_version >= '3.9' and python_full_version < '3.11'" },
+    { name = "typing-extensions", version = "4.14.0", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.9'" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/f7/f2/5143934dd19ba6e148a4fb6855e9c9557194bf21aa9801f4bac1f8a98854/cattrs-25.1.0.tar.gz", hash = "sha256:3bf01e9592b38a49bdae47a26385583f000c98862d0efcda2c03a508b02b95b8", size = 434766, upload-time = "2025-05-31T09:57:56.934Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/36/b7/318acfc745ef8528fea93581e8c60be1999203903d3e9b375294f790862d/cattrs-25.1.0-py3-none-any.whl", hash = "sha256:b07bd2082298f8915d53ed7254c4c34d90995d4a79467b7df7bbd544eef532f1", size = 69239, upload-time = "2025-05-31T09:57:55.061Z" },
+]
+
+[[package]]
+name = "clangd"
+version = "20.1.5"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/6c/8e/89d7c8746ae667ad674072fd5beb857ae377034f02db54c7f637c4c9cd57/clangd-20.1.5.tar.gz", hash = "sha256:66a32a65e62eee2737f802df01698d090d5e803aa23e9ee4a0e4aced04dcb994", size = 11740, upload-time = "2025-05-14T22:35:45.914Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/bc/e0/799e2328ed98ba298be8712f2cdb22fed2a99f079399ee39218468ac777d/clangd-20.1.5-py2.py3-none-macosx_10_9_x86_64.whl", hash = "sha256:ed37ce316255978353ab1de66880565f5d67421bfd748c6f9fe3120fb98417ac", size = 43241104, upload-time = "2025-05-14T22:35:07.774Z" },
+    { url = "https://files.pythonhosted.org/packages/5f/af/efa5a0326c2e330ec9c2d4e86f46cd15521204874ad71f01e4fdaa6b26fe/clangd-20.1.5-py2.py3-none-macosx_11_0_arm64.whl", hash = "sha256:543ba39c023a9a94e02ccbc771fdb4cbe0495853c2917598dbdf6d1af7fc0984", size = 39686701, upload-time = "2025-05-14T22:35:11.56Z" },
+    { url = "https://files.pythonhosted.org/packages/42/e7/3f174ee6ba3dced7a1c9becee91f5e40ae149a516383896862f1dcdcac53/clangd-20.1.5-py2.py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:500718abaaff6f4225eed38f969512cf5e8f99fd9d783ff95beaed6aa657bf5d", size = 54770666, upload-time = "2025-05-14T22:35:15.276Z" },
+    { url = "https://files.pythonhosted.org/packages/e7/23/b7f238ab3f638ec6760810bc35d8b404781ccbdd5a8b4b1a97297efb3162/clangd-20.1.5-py2.py3-none-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:ab8fb539b356c61df472eb937bcff8498ffe5d967b703803995d99254d52c103", size = 64960888, upload-time = "2025-05-14T22:35:19.539Z" },
+    { url = "https://files.pythonhosted.org/packages/dd/08/13c5fdfc2d4310b94670e335fac197eeaa943b9dc6e43bbc847d7d920a2b/clangd-20.1.5-py2.py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:52f1de580c6006ca4d0ba566ac360c9bed4088f3f33db4ab08e784e698ea9f0d", size = 56275291, upload-time = "2025-05-14T22:35:24.099Z" },
+    { url = "https://files.pythonhosted.org/packages/85/25/6e5872a8954c263a0780456abb62e074e2e78dc022d97914115c41fb8890/clangd-20.1.5-py2.py3-none-musllinux_1_2_aarch64.whl", hash = "sha256:9a39f11e8889a08de2eb826aa4bd2e8d7dcdc7e0739c518e1168e7c1a9f8a3a2", size = 58632806, upload-time = "2025-05-14T22:35:27.976Z" },
+    { url = "https://files.pythonhosted.org/packages/e4/d5/c180297c450176c46b903f3c6a8e2d536952e534bbd3af5cc687acaefb32/clangd-20.1.5-py2.py3-none-musllinux_1_2_i686.whl", hash = "sha256:810eea2c42bd56650ff6f3090aece64aa7ff87568a7af243f2397e14c6c4f3c3", size = 68693113, upload-time = "2025-05-14T22:35:31.945Z" },
+    { url = "https://files.pythonhosted.org/packages/c8/8c/08c316c8ba6897da9c28bda3a6695765710540cf62de3a38e1ef624cb4cc/clangd-20.1.5-py2.py3-none-musllinux_1_2_x86_64.whl", hash = "sha256:30591749e47ac7fafe10a45b01716757fbbb2ceb240017cc335be719f5ea1674", size = 61484197, upload-time = "2025-05-14T22:35:36.203Z" },
+    { url = "https://files.pythonhosted.org/packages/d2/0c/98b6a2c4a72b8cc6bb76735de7c59b1abf8b1d0dc05df1f810b1796bc28f/clangd-20.1.5-py2.py3-none-win_amd64.whl", hash = "sha256:bb1bcaf3711df8c2453ff58ebdda852fbf4f32cb8c0631f13b9db5e13dd3d46a", size = 43308299, upload-time = "2025-05-14T22:35:40.316Z" },
+    { url = "https://files.pythonhosted.org/packages/81/95/5a006ce4ef61cd7949b0380f86db503811c1fb5d030a1f935c726f96e27b/clangd-20.1.5-py2.py3-none-win_arm64.whl", hash = "sha256:3ae8d79ec6fa57a053dfa43fdbae8faba3813d292895b3a514e39b1f9df12a29", size = 38970929, upload-time = "2025-05-14T22:35:43.494Z" },
+]
+
+[[package]]
+name = "clangd-format-pre-commit"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "clangd" },
+    { name = "clangd-tidy" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "clangd", specifier = ">=20.1.5" },
+    { name = "clangd-tidy", specifier = ">=1.1.0.post2" },
+]
+
+[[package]]
+name = "clangd-tidy"
+version = "1.1.0.post2"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "attrs" },
+    { name = "cattrs", version = "24.1.3", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.9'" },
+    { name = "cattrs", version = "25.1.0", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.9'" },
+    { name = "typing-extensions", version = "4.13.2", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.9'" },
+    { name = "typing-extensions", version = "4.14.0", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.9'" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/07/9a/78f910420dc2e2ef4d679fb3a0520262316d259b48e522832c510b26c857/clangd_tidy-1.1.0.post2.tar.gz", hash = "sha256:3728212d8f81798f4b00eb2d28415c3cb740ee5d6309d1cbbb23e6b386cec981", size = 23761, upload-time = "2025-05-13T03:53:50.334Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/87/51/69a27b13dd3e7eb37aa64e0bff81bd3019de4598d2398bb491ce9ceb17aa/clangd_tidy-1.1.0.post2-py3-none-any.whl", hash = "sha256:eb1f6165e0e8ab290d41ecff7dba6468fdbc668c42b1c21c207ba8546a14bf13", size = 21660, upload-time = "2025-05-13T03:53:48.764Z" },
+]
+
+[[package]]
+name = "exceptiongroup"
+version = "1.3.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "typing-extensions", version = "4.13.2", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.9'" },
+    { name = "typing-extensions", version = "4.14.0", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.9' and python_full_version < '3.13'" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/0b/9f/a65090624ecf468cdca03533906e7c69ed7588582240cfe7cc9e770b50eb/exceptiongroup-1.3.0.tar.gz", hash = "sha256:b241f5885f560bc56a59ee63ca4c6a8bfa46ae4ad651af316d4e81817bb9fd88", size = 29749, upload-time = "2025-05-10T17:42:51.123Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/36/f4/c6e662dade71f56cd2f3735141b265c3c79293c109549c1e6933b0651ffc/exceptiongroup-1.3.0-py3-none-any.whl", hash = "sha256:4d111e6e0c13d0644cad6ddaa7ed0261a0b36971f6d23e7ec9b4b9097da78a10", size = 16674, upload-time = "2025-05-10T17:42:49.33Z" },
+]
+
+[[package]]
+name = "typing-extensions"
+version = "4.13.2"
+source = { registry = "https://pypi.org/simple" }
+resolution-markers = [
+    "python_full_version < '3.9'",
+]
+sdist = { url = "https://files.pythonhosted.org/packages/f6/37/23083fcd6e35492953e8d2aaaa68b860eb422b34627b13f2ce3eb6106061/typing_extensions-4.13.2.tar.gz", hash = "sha256:e6c81219bd689f51865d9e372991c540bda33a0379d5573cddb9a3a23f7caaef", size = 106967, upload-time = "2025-04-10T14:19:05.416Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/8b/54/b1ae86c0973cc6f0210b53d508ca3641fb6d0c56823f288d108bc7ab3cc8/typing_extensions-4.13.2-py3-none-any.whl", hash = "sha256:a439e7c04b49fec3e5d3e2beaa21755cadbbdc391694e28ccdd36ca4a1408f8c", size = 45806, upload-time = "2025-04-10T14:19:03.967Z" },
+]
+
+[[package]]
+name = "typing-extensions"
+version = "4.14.0"
+source = { registry = "https://pypi.org/simple" }
+resolution-markers = [
+    "python_full_version >= '3.9'",
+]
+sdist = { url = "https://files.pythonhosted.org/packages/d1/bc/51647cd02527e87d05cb083ccc402f93e441606ff1f01739a62c8ad09ba5/typing_extensions-4.14.0.tar.gz", hash = "sha256:8676b788e32f02ab42d9e7c61324048ae4c6d844a399eebace3d4979d75ceef4", size = 107423, upload-time = "2025-06-02T14:52:11.399Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/69/e0/552843e0d356fbb5256d21449fa957fa4eff3bbc135a74a691ee70c7c5da/typing_extensions-4.14.0-py3-none-any.whl", hash = "sha256:a1514509136dd0b477638fc68d6a91497af5076466ad0fa6c338e44e359944af", size = 43839, upload-time = "2025-06-02T14:52:10.026Z" },
+]

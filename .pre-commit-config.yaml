@@ -1,0 +1,23 @@
+repos:
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v2.3.0
+    hooks:
+    -   id: check-yaml
+    -   id: end-of-file-fixer
+    -   id: trailing-whitespace
+
+-  repo: https://github.com/markdownlint/markdownlint
+   rev: v0.13.0
+   hooks:
+     - id: markdownlint
+
+- repo: https://github.com/amperser/proselint
+  rev: 0.14.0
+  hooks:
+    - id: proselint
+
+- repo: https://github.com/astral-sh/uv-pre-commit
+  # uv version.
+  rev: 0.7.9
+  hooks:
+    - id: uv-lock
