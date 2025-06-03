@@ -63,6 +63,6 @@ Add these lines to your .pre-commit-config.yaml
       args: [-p build/] # Path to the directory where compile_commands.json is generated
 ```
 
-> [!INFO]
-> Check [this page](https://github.com/lljbash/clangd-tidy#usage)
+> [!TIP]
+> Checx [this page](https://github.com/lljbash/clangd-tidy#usage)
 > for the full list of arguments that can be passed to clangd-tidy
