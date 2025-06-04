@@ -64,5 +64,5 @@ Add these lines to your .pre-commit-config.yaml
 ```
 
 > [!TIP]
-> Checx [this page](https://github.com/lljbash/clangd-tidy#usage)
+> Check [this page](https://github.com/lljbash/clangd-tidy#usage)
 > for the full list of arguments that can be passed to clangd-tidy

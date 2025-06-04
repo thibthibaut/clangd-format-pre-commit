@@ -6,3 +6,4 @@
     types: ["c", "c++", "file", "non-executable", "text"]
     args:
       - "-j8"
+      - "--fail-on-severity error"
