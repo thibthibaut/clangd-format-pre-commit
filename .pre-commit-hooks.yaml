@@ -4,6 +4,4 @@
     entry: clangd-tidy
     language: python
     types: ["c", "c++", "file", "non-executable", "text"]
-    args:
-      - "-j8"
-      - "--fail-on-severity error"
+    args: ["-j", "8", "--fail-on-severity", "error"]
